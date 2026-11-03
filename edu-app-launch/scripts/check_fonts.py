@@ -197,7 +197,7 @@ def main():
         elif is_ofl and not lic:
             fix.append(f'{rel}: OFL 폰트인데 라이선스 파일(OFL.txt)이 없음 — 폰트를 받을 때 들어 있던 OFL.txt를 같은 폴더에 넣기')
         elif is_school and not lic:
-            fix.append(f'{rel}: 학교안심 글꼴로 보이나 라이선스 파일이 없음 — 다운로드 묶음의 OFL.txt를 같은 폴더에 넣기')
+            fix.append(f'{rel}: 학교안심 글꼴로 보이나 라이선스 파일이 없음 — KERIS 묶음에는 OFL.txt가 없으니 학교안심 글꼴 키트(https://github.com/KimKyungmin-7788/hakgyoansim-font-kit)의 fonts/OFL.txt를 같은 폴더에 넣기')
         else:
             check.append(f'{rel}: 라이선스를 확인할 수 없음 — 받은 곳(공식 배포처)에서 라이선스가 OFL인지 확인. 모르면 학교안심 글꼴로 교체')
 
